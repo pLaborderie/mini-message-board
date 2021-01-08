@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.message {
+  padding: 7px 12px;
+  margin-bottom: 5px;
+  background: #0099ff;
+  color: white;
+  border-radius: 18px;
+  max-width: 564px; }
+  .message:last-child {
+    margin-bottom: 0; }
+  .message .author {
+    margin: .2em 0;
+    font-style: italic; }
+  .message .content {
+    margin: .2em 0; }
+  .message .date {
+    font-size: .8em; }
+
+/*# sourceMappingURL=style.css.map */
