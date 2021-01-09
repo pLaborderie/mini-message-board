@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <h3>New message form</h3>
+    <form method="POST" action="/new">
+        <label for="user">Message author name:</label>
+        <input type="text" name="user" id="user" placeholder="Your name :)">
+        <label for="text">Content:</label>
+        <input type="text" name="text" id="text" placeholder="Write your message here!">
+        <button type="submit">Submit message!</button>
+    </form>
+  </body>
+</html>
