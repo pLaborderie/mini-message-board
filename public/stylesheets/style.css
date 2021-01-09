@@ -1,9 +1,32 @@
+@charset "UTF-8";
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
   color: #00B7FF; }
+
+.new-message {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #000;
+  margin: 0 0.3em 1em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
+  background-color: #FFF;
+  text-align: center;
+  transition: all 0.2s;
+    display: block;
+    margin: 0.4em auto; }
+  .new-message:hover {
+    color: #FFF;
+    background-color: #000;
+    cursor: pointer; }
 
 .message {
   padding: 7px 12px;
